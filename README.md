@@ -29,7 +29,7 @@ Official guide: [Security](https://wave.h2o.ai/docs/security)
 ```shell
 cd wave-server
 mkdir certs
-chmod 
+
 openssl req \
    -newkey rsa:2048 -nodes -keyout domain.key \
    -x509 -days 365 -out domain.crt
