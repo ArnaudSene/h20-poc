@@ -50,3 +50,10 @@ cd wave-server
 ```
 > None
 > If `H2O_WAVE_TLS_CERT_FILE` & `H2O_WAVE_TLS_KEY_FILE` are set, `wave` server will start over TLS.
+
+## Run wave apps
+> ! Must be located at root directory `h2o-poc/`
+> 
+```shell
+wave run my_app.apps
+```
